@@ -2,17 +2,23 @@
   "name": "babeltest",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "author": "Kalyan Kankala <kankala.kalyan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:babel": "babel src/index.js -o src/index-compiled.js"
+    "build:babel": "babel src/index.js -o src/index-compiled.js",
+    "build:webpack": "webpack"
   },
   "dependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
-    "core-js": "3"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.13"
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "core-js": "3",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0"
   }
 }
