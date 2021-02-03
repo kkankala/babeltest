@@ -1,0 +1,7 @@
+{
+  "name": "babeltest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kalyan Kankala <kankala.kalyan@gmail.com>",
+  "license": "MIT"
+}
