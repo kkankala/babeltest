@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Kalyan Kankala <kankala.kalyan@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build:babel": "babel src/index.js -o src/index-compiled.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "core-js": "3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.13"
+  }
 }
